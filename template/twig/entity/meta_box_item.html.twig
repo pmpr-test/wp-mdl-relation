@@ -1,0 +1,9 @@
+{% set id = get_id(data) %}
+<div class="relation-item d-flex justify-content-between" data-value="{{ id|esc_attr }}" data-priority="{{ priority|esc_attr }}">
+    {{ move_handle|raw }}
+    <a href="{{ get_permalink(id)|raw }}" class="link relation-link" target="_blank" style="max-width: calc(100% - 60px)">
+        <span class="ellipsis-text relation-item-text d-block py-1 mx-1">{{ get_title(id)|raw }} <smll>({{ id|raw }})</smll></span>
+    </a>
+    {{ remove_modal|replace({'%id%': id})|raw }}
+</div>
+

@@ -1,0 +1,378 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr Relation\n"
+"POT-Creation-Date: 2022-12-13 18:22+0330\n"
+"PO-Revision-Date: 2022-12-13 18:23+0330\n"
+"Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/Module/Relation/Ajax.php:51
+msgid "Already added"
+msgstr "پیش از این افزوده شده است"
+
+#: src/Pmpr/Module/Relation/Ajax.php:84
+msgid "Try more word"
+msgstr "حروف بیشتری را امتحان کنید"
+
+#: src/Pmpr/Module/Relation/Ajax.php:96
+msgid "Successfully update."
+msgstr "با موفقیت به‌ روزرسانی شد."
+
+#: src/Pmpr/Module/Relation/Ajax.php:97
+msgid "Something is wrong in update process, please try later."
+msgstr "اشکالی در فرایند به‌روزرسانی رخ داده است، لطفل دوباره امتحان کنید."
+
+#: src/Pmpr/Module/Relation/Ajax.php:110
+msgid "Successfully deleted."
+msgstr "با موفقیت حذف شد."
+
+#: src/Pmpr/Module/Relation/Ajax.php:111
+msgid "Something is wrong in delete process, please try later."
+msgstr "اشکالی در فرایند حذف رخ داده است، لطفل دوباره امتحان کنید."
+
+#: src/Pmpr/Module/Relation/Container.php:288
+msgid "Remove"
+msgstr "حذف"
+
+#: src/Pmpr/Module/Relation/Container.php:293
+msgid "Are you sure you want to remove this item?"
+msgstr "در مورد حذف این آیتم مطمئن هستید؟"
+
+#: src/Pmpr/Module/Relation/Entity/Entity.php:320
+#, php-format
+msgid "Type Name of a %s"
+msgstr "نام یک %s را بنویسید"
+
+#: src/Pmpr/Module/Relation/Entity/Entity.php:339
+msgid "Relations"
+msgstr "رابطه‌ها"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:24
+msgid "Post Types"
+msgstr "انواع نوشته"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:87
+#: src/Pmpr/Module/Relation/Entity/Term.php:61
+#, php-format
+msgid "Relation with %s"
+msgstr "رابطه با %s"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:124
+msgid "Something is wrong in relation field rendering"
+msgstr "اشکالی در فرایند نمایش فیلد رابطه رخ داده است"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:248
+msgid "MetaBox Position"
+msgstr "موقعیت متاباکس"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:250
+msgid "Sidebar"
+msgstr "سایدبار"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:251
+msgid "Bottom"
+msgstr "پایین"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:253
+msgid "Position of metabox in edit screen of custom post types."
+msgstr "موقعیت متاباکس در صفحه ویرایش نوشته‌ها."
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:258
+#: src/Pmpr/Module/Relation/Entity/Term.php:175
+msgid "Items"
+msgstr "آیتم‌ها‌"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:262
+#: src/Pmpr/Module/Relation/Entity/Term.php:179
+msgid "Enable"
+msgstr "فعال"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:266
+#: src/Pmpr/Module/Relation/Entity/Term.php:183
+msgid "Inverse Side"
+msgstr "رابطه دو طرفه"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:270
+#: src/Pmpr/Module/Relation/Entity/Term.php:187
+msgid "Image"
+msgstr "تصویر"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:274
+#: src/Pmpr/Module/Relation/Entity/Term.php:191
+msgid "Admin Panel Name"
+msgstr "نام در پنل ادمین"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:278
+msgid "Origin Post Type"
+msgstr "نوع نوشته مبدا"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:283
+msgid "Destination Post Type"
+msgstr "نوع نوشته مقصد"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:288
+msgid "Origin Post Type Title"
+msgstr "عنوان نوع نوشته مبدا"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:289
+#: src/Pmpr/Module/Relation/Entity/Term.php:192
+msgid "Notice"
+msgstr "هشدار"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:289
+#: src/Pmpr/Module/Relation/Entity/Term.php:192
+msgid "Will be used as slug too."
+msgstr "به عنوان نامک استفاده خواهد شد."
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:293
+msgid "Destination Post Type Title"
+msgstr "عنوان نوع نوشته مقصد"
+
+#: src/Pmpr/Module/Relation/Entity/Term.php:21
+msgid "Terms"
+msgstr "قوانین و مقررات"
+
+#: src/Pmpr/Module/Relation/Entity/Term.php:196
+msgid "Origin"
+msgstr "سرور"
+
+#: src/Pmpr/Module/Relation/Entity/Term.php:201
+msgid "Destination"
+msgstr "مقصد"
+
+#: src/Pmpr/Module/Relation/Entity/Term.php:206
+msgid "Origin Title"
+msgstr "عنوان اصلی"
+
+#: src/Pmpr/Module/Relation/Entity/Term.php:210
+msgid "Destination Title"
+msgstr "عنوان مقصد"
+
+#: src/Pmpr/Module/Relation/Relation.php:22
+#: src/Pmpr/Module/Relation/Setting.php:26
+#: src/Pmpr/Module/Relation/Widget/Post.php:47
+msgid "Relation"
+msgstr "رابطه"
+
+#: src/Pmpr/Module/Relation/Setting.php:25
+msgid "Relation Setting"
+msgstr "تنظیمات رابطه"
+
+#: src/Pmpr/Module/Relation/Setting.php:32
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Module/Relation/Widget/Post.php:25
+msgid "Post Relations"
+msgstr "رابطه بین نوشته‌ها"
+
+#: src/Pmpr/Module/Relation/Widget/Post.php:26
+msgid "Display the related posts."
+msgstr "نمایش نوشته‌های مرتبط."
+
+#: src/Pmpr/Module/Relation/Widget/Post.php:43
+msgid "Title"
+msgstr "عنوان"
+
+#: src/Pmpr/Module/Relation/Widget/Post.php:52
+msgid "Count"
+msgstr "تعداد"
+
+#: src/Pmpr/Module/Relation/Widget/Post.php:57
+msgid "Metadata"
+msgstr "متادیتا"
+
+#: src/Pmpr/Module/Relation/Widget/Post.php:62
+msgid "Render Template"
+msgstr "قالب نمایش"
+
+#: src/Pmpr/Module/Relation/Widget/Post.php:64
+msgid "List"
+msgstr "لیست"
+
+#: src/Pmpr/Module/Relation/Widget/Post.php:65
+msgid "Table"
+msgstr "جدول"
+
+#: src/Pmpr/Module/Relation/Widget/Post.php:66
+msgid "Simple List"
+msgstr "لیست ساده"
+
+#~ msgid "FAQ"
+#~ msgstr "سوالات متداول"
+
+#~ msgid "Pending"
+#~ msgstr "در انتظار"
+
+#~ msgid "Publish"
+#~ msgstr "منتشر شده"
+
+#~ msgid "Status"
+#~ msgstr "وضعیت"
+
+#~ msgid "Priority"
+#~ msgstr "الویت"
+
+#~ msgid "Creator"
+#~ msgstr "ایجاد کننده"
+
+#~ msgid "Response"
+#~ msgstr "پاسخ"
+
+#~ msgid "Frequently Asked Questions"
+#~ msgstr "سوالات متداول"
+
+#~ msgid "Something wrong on save your message."
+#~ msgstr "اشکالی در فرایند ذخیره پیغام شما رخ داده است."
+
+#~ msgid "Request is not valid, please try again."
+#~ msgstr "درخواست شما معتبر نیست، لطفا دوباره سعی کنید."
+
+#~ msgid "Can not save your posted data. try latter please."
+#~ msgstr "قادر به ذخیره داده‌ ارسالی شما نیستیم، لطفا مجددا تلاش کنید."
+
+#~ msgid "Required data not provided or not valid."
+#~ msgstr "داده‌های الزامی ارسال نشد‌اند یا معتبر نیستند."
+
+#~ msgid "Rate is not recorded. please try again."
+#~ msgstr "امتیاز ثبت نشد، لطفا دوباره تلاش کنید."
+
+#~ msgid "Rating Average %s of %s | Rating Count: %s"
+#~ msgstr "میانگین امتیاز  %s از %s |  تعداد امتیاز: %s"
+
+#~ msgid "Your opinion is important to us"
+#~ msgstr "نظر شما برای ما مهمه"
+
+#~ msgid "Rate this post %s to %s"
+#~ msgstr "به این نوشته از %s تا %s امتیاز بدین"
+
+#~ msgid "You have already rate %s to this post."
+#~ msgstr "شما قبلا امتیاز %s را برای این نوشته ثبت کرده‌اید."
+
+#~ msgid "Rating Feedback"
+#~ msgstr "بازخورد امتیاز"
+
+#~ msgid "Submit"
+#~ msgstr "تایید"
+
+#~ msgid "Feedback"
+#~ msgstr "بازخورد"
+
+#~ msgid "Feedbacks"
+#~ msgstr "بازخوردها"
+
+#~ msgid "Text"
+#~ msgstr "متن"
+
+#~ msgid "Post"
+#~ msgstr "نوشته‌"
+
+#~ msgid "Owner"
+#~ msgstr "کاربر"
+
+#~ msgid "IP"
+#~ msgstr "آی پی"
+
+#~ msgid "Show Post"
+#~ msgstr "نمایش نوشته‌ها"
+
+#~ msgid "Rate"
+#~ msgstr "امتیاز"
+
+#~ msgid "Rates"
+#~ msgstr "امتیاز‌ها"
+
+#~ msgid "Value"
+#~ msgstr "مقدار"
+
+#~ msgid "Extremely Poor"
+#~ msgstr "شدیدا ضعیف"
+
+#~ msgid "Bad"
+#~ msgstr "بد"
+
+#~ msgid "Average"
+#~ msgstr "متوسط"
+
+#~ msgid "Good"
+#~ msgstr "خوب"
+
+#~ msgid "Excellent"
+#~ msgstr "عالی"
+
+#~ msgid "Rating"
+#~ msgstr "امتیازدهی"
+
+#~ msgid "Setting"
+#~ msgstr "تنظیمات"
+
+#~ msgid "Exclude Posts"
+#~ msgstr "نوشته‌های مستثنی"
+
+#~ msgid "Thanks Message"
+#~ msgstr "پیغام تشکر"
+
+#~ msgid "Thanks for your rating."
+#~ msgstr "از امتیاز‌ی که دادید متشکریم."
+
+#~ msgid "Enable Feedback"
+#~ msgstr "فعال سازی بازخورد"
+
+#~ msgid "Worse Threshold"
+#~ msgstr "آستانه بدترین امتیاز"
+
+#~ msgid "Ask a feedback question, if user rate less than threshold."
+#~ msgstr ""
+#~ "در صورتی که کاربر کمتر از آستانه امتیاز دهد، یک فرم بازخورد نشان داده "
+#~ "خواهد شد."
+
+#~ msgid "Share the reason behind this submission with us."
+#~ msgstr "علت ثبت این امتیاز کم رو با ما در میان بگذارید."
+
+#~ msgid "Feedback Message"
+#~ msgstr "پیغام بازخورد"
+
+#~ msgid "Thanks for your feedback."
+#~ msgstr "بابت بازخوردتون ممنونیم."
+
+#~ msgid ""
+#~ "Sorry, this file couldn't be sanitized so for security reasons wasn't "
+#~ "uploaded"
+#~ msgstr ""
+#~ "متاسفم، قادر به پاکسازی فایل مورد نظر نبودیم، به دلایل امنیتی فایل آپلود "
+#~ "نشد"
+
+#~ msgid "Full Size"
+#~ msgstr "اندازه کامل"
+
+#~ msgid "Thumbnail"
+#~ msgstr "تصویر بند انگشتی"
+
+#~ msgid "Medium"
+#~ msgstr "متوسط"
+
+#~ msgid "Large"
+#~ msgstr "بزرگ"
+
+#~ msgid "AMP"
+#~ msgstr "شتابدهی موبایل"
+
+#~ msgid "Endpoint"
+#~ msgstr "نقطه پایانی"
+

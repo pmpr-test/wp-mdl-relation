@@ -1,0 +1,23 @@
+{{ render_backend_spinner({}) }}
+<div class="pr-mini-tabs position-relative spinnerable">
+    <div data-target="{{ target }}">
+        <ul class="pr-tabs">
+            {% for key, metabox in metaBoxes %}
+                <li class="pr-tab">
+                    <a href="#content-{{ sanitize_title(key) }}-{{ loop.index }}"
+                       class="pr-tab-link{% if loop.first %} active{% endif %}">
+                        {{ names[key] }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+        <div class="pr-tab-contents">
+            {% for key, metabox in metaBoxes %}
+                <div id="content-{{ sanitize_title(key) }}-{{ loop.index }}"
+                     class="pr-tab-content{% if loop.first %} active{% endif %}">
+                    {{ metabox|raw }}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

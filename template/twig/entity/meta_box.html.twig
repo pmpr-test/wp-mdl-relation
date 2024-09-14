@@ -1,0 +1,18 @@
+<div class="relation-metabox relation-{{ metaKey }}" id="{{ metaKey }}">
+    <div class="relation-error"></div>
+    <div id="ajax-relation-{{ metaKey }}" class="mt-2">
+        <label class="screen-reader-text" for="new-relation-{{ metaKey }}">{{ label|raw }}</label>
+        <input type="text" placeholder="{{ input_placeholder|format(name) }}" id="new-relation-{{ metaKey }}"
+               name="newrelation[{{ metaKey }}]" data-exclude="{{ excludes }}" data-owner="{{ owner }}"
+               data-target="{{ target }}" data-metakey="{{ metaKey }}" data-entity="{{ entity }}"
+               class="w-xs-100 newrelation form-input-tip" size="16" autocomplete="off" value=""/>
+    </div>
+    <div class="relation-box mt-2">
+        {% for priority, item in data %}
+            {% include get_template('meta_box_item', _self) with {
+                data: item,
+                priority: priority
+            } %}
+        {% endfor %}
+    </div>
+</div>
