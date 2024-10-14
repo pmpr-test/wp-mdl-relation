@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Relation\n"
-"POT-Creation-Date: 2022-12-13 18:22+0330\n"
-"PO-Revision-Date: 2022-12-13 18:23+0330\n"
+"POT-Creation-Date: 2024-10-15 01:41+0330\n"
+"PO-Revision-Date: 2024-10-15 01:42+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: index.php\n"
 "X-Source-Language: en\n"
@@ -22,121 +22,127 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: lib\n"
 "X-Poedit-SearchPathExcluded-1: *.js\n"
 
-#: src/Pmpr/Module/Relation/Ajax.php:51
+#: src/Pmpr/Module/Relation/Ajax.php:47
 msgid "Already added"
 msgstr "پیش از این افزوده شده است"
 
-#: src/Pmpr/Module/Relation/Ajax.php:84
+#: src/Pmpr/Module/Relation/Ajax.php:81
 msgid "Try more word"
 msgstr "حروف بیشتری را امتحان کنید"
 
-#: src/Pmpr/Module/Relation/Ajax.php:96
-msgid "Successfully update."
+#: src/Pmpr/Module/Relation/Ajax.php:95
+msgid "Successfully updated."
 msgstr "با موفقیت به‌ روزرسانی شد."
 
-#: src/Pmpr/Module/Relation/Ajax.php:97
+#: src/Pmpr/Module/Relation/Ajax.php:98
 msgid "Something is wrong in update process, please try later."
 msgstr "اشکالی در فرایند به‌روزرسانی رخ داده است، لطفل دوباره امتحان کنید."
 
-#: src/Pmpr/Module/Relation/Ajax.php:110
+#: src/Pmpr/Module/Relation/Ajax.php:113
 msgid "Successfully deleted."
 msgstr "با موفقیت حذف شد."
 
-#: src/Pmpr/Module/Relation/Ajax.php:111
+#: src/Pmpr/Module/Relation/Ajax.php:116
 msgid "Something is wrong in delete process, please try later."
 msgstr "اشکالی در فرایند حذف رخ داده است، لطفل دوباره امتحان کنید."
 
-#: src/Pmpr/Module/Relation/Container.php:288
+#: src/Pmpr/Module/Relation/Container.php:278
 msgid "Remove"
 msgstr "حذف"
 
-#: src/Pmpr/Module/Relation/Container.php:293
+#: src/Pmpr/Module/Relation/Container.php:283
 msgid "Are you sure you want to remove this item?"
 msgstr "در مورد حذف این آیتم مطمئن هستید؟"
 
-#: src/Pmpr/Module/Relation/Entity/Entity.php:320
+#: src/Pmpr/Module/Relation/Entity/Entity.php:314
 #, php-format
 msgid "Type Name of a %s"
 msgstr "نام یک %s را بنویسید"
 
+#: src/Pmpr/Module/Relation/Entity/Entity.php:335
+#, php-format
+msgid "%s relation configuration"
+msgstr "پیکربندی %s رابطه"
+
 #: src/Pmpr/Module/Relation/Entity/Entity.php:339
+#: src/Pmpr/Module/Relation/Model/Relation.php:22
 msgid "Relations"
 msgstr "رابطه‌ها"
 
-#: src/Pmpr/Module/Relation/Entity/Post.php:24
+#: src/Pmpr/Module/Relation/Entity/Post.php:21
 msgid "Post Types"
 msgstr "انواع نوشته"
 
-#: src/Pmpr/Module/Relation/Entity/Post.php:87
-#: src/Pmpr/Module/Relation/Entity/Term.php:61
+#: src/Pmpr/Module/Relation/Entity/Post.php:84
+#: src/Pmpr/Module/Relation/Entity/Term.php:60
 #, php-format
 msgid "Relation with %s"
 msgstr "رابطه با %s"
 
-#: src/Pmpr/Module/Relation/Entity/Post.php:124
+#: src/Pmpr/Module/Relation/Entity/Post.php:120
 msgid "Something is wrong in relation field rendering"
 msgstr "اشکالی در فرایند نمایش فیلد رابطه رخ داده است"
 
-#: src/Pmpr/Module/Relation/Entity/Post.php:248
-msgid "MetaBox Position"
-msgstr "موقعیت متاباکس"
-
-#: src/Pmpr/Module/Relation/Entity/Post.php:250
+#: src/Pmpr/Module/Relation/Entity/Post.php:249
 msgid "Sidebar"
 msgstr "سایدبار"
 
-#: src/Pmpr/Module/Relation/Entity/Post.php:251
+#: src/Pmpr/Module/Relation/Entity/Post.php:250
 msgid "Bottom"
 msgstr "پایین"
+
+#: src/Pmpr/Module/Relation/Entity/Post.php:252
+msgid "MetaBox Position"
+msgstr "موقعیت متاباکس"
 
 #: src/Pmpr/Module/Relation/Entity/Post.php:253
 msgid "Position of metabox in edit screen of custom post types."
 msgstr "موقعیت متاباکس در صفحه ویرایش نوشته‌ها."
 
-#: src/Pmpr/Module/Relation/Entity/Post.php:258
-#: src/Pmpr/Module/Relation/Entity/Term.php:175
+#: src/Pmpr/Module/Relation/Entity/Post.php:256
+#: src/Pmpr/Module/Relation/Entity/Term.php:180
 msgid "Items"
 msgstr "آیتم‌ها‌"
 
-#: src/Pmpr/Module/Relation/Entity/Post.php:262
-#: src/Pmpr/Module/Relation/Entity/Term.php:179
+#: src/Pmpr/Module/Relation/Entity/Post.php:259
+#: src/Pmpr/Module/Relation/Entity/Term.php:183
 msgid "Enable"
 msgstr "فعال"
 
-#: src/Pmpr/Module/Relation/Entity/Post.php:266
-#: src/Pmpr/Module/Relation/Entity/Term.php:183
+#: src/Pmpr/Module/Relation/Entity/Post.php:263
+#: src/Pmpr/Module/Relation/Entity/Term.php:187
 msgid "Inverse Side"
 msgstr "رابطه دو طرفه"
 
-#: src/Pmpr/Module/Relation/Entity/Post.php:270
-#: src/Pmpr/Module/Relation/Entity/Term.php:187
+#: src/Pmpr/Module/Relation/Entity/Post.php:267
+#: src/Pmpr/Module/Relation/Entity/Term.php:191
 msgid "Image"
 msgstr "تصویر"
 
-#: src/Pmpr/Module/Relation/Entity/Post.php:274
-#: src/Pmpr/Module/Relation/Entity/Term.php:191
+#: src/Pmpr/Module/Relation/Entity/Post.php:271
+#: src/Pmpr/Module/Relation/Entity/Term.php:195
 msgid "Admin Panel Name"
 msgstr "نام در پنل ادمین"
 
-#: src/Pmpr/Module/Relation/Entity/Post.php:278
+#: src/Pmpr/Module/Relation/Entity/Post.php:276
 msgid "Origin Post Type"
 msgstr "نوع نوشته مبدا"
 
-#: src/Pmpr/Module/Relation/Entity/Post.php:283
+#: src/Pmpr/Module/Relation/Entity/Post.php:281
 msgid "Destination Post Type"
 msgstr "نوع نوشته مقصد"
 
-#: src/Pmpr/Module/Relation/Entity/Post.php:288
+#: src/Pmpr/Module/Relation/Entity/Post.php:285
 msgid "Origin Post Type Title"
 msgstr "عنوان نوع نوشته مبدا"
 
-#: src/Pmpr/Module/Relation/Entity/Post.php:289
-#: src/Pmpr/Module/Relation/Entity/Term.php:192
+#: src/Pmpr/Module/Relation/Entity/Post.php:287
+#: src/Pmpr/Module/Relation/Entity/Term.php:197
 msgid "Notice"
 msgstr "هشدار"
 
-#: src/Pmpr/Module/Relation/Entity/Post.php:289
-#: src/Pmpr/Module/Relation/Entity/Term.php:192
+#: src/Pmpr/Module/Relation/Entity/Post.php:288
+#: src/Pmpr/Module/Relation/Entity/Term.php:198
 msgid "Will be used as slug too."
 msgstr "به عنوان نامک استفاده خواهد شد."
 
@@ -144,75 +150,123 @@ msgstr "به عنوان نامک استفاده خواهد شد."
 msgid "Destination Post Type Title"
 msgstr "عنوان نوع نوشته مقصد"
 
-#: src/Pmpr/Module/Relation/Entity/Term.php:21
+#: src/Pmpr/Module/Relation/Entity/Term.php:20
 msgid "Terms"
 msgstr "قوانین و مقررات"
 
-#: src/Pmpr/Module/Relation/Entity/Term.php:196
+#: src/Pmpr/Module/Relation/Entity/Term.php:203
+#: src/Pmpr/Module/Relation/Model/Record.php:31
+#: src/Pmpr/Module/Relation/Model/Relation.php:56
 msgid "Origin"
 msgstr "سرور"
 
-#: src/Pmpr/Module/Relation/Entity/Term.php:201
+#: src/Pmpr/Module/Relation/Entity/Term.php:208
+#: src/Pmpr/Module/Relation/Model/Record.php:36
+#: src/Pmpr/Module/Relation/Model/Relation.php:61
 msgid "Destination"
 msgstr "مقصد"
 
-#: src/Pmpr/Module/Relation/Entity/Term.php:206
+#: src/Pmpr/Module/Relation/Entity/Term.php:213
 msgid "Origin Title"
 msgstr "عنوان اصلی"
 
-#: src/Pmpr/Module/Relation/Entity/Term.php:210
+#: src/Pmpr/Module/Relation/Entity/Term.php:217
 msgid "Destination Title"
 msgstr "عنوان مقصد"
 
+#: src/Pmpr/Module/Relation/Model/Record.php:20
+msgid "Record"
+msgstr "رکورد"
+
+#: src/Pmpr/Module/Relation/Model/Record.php:21
+#: src/Pmpr/Module/Relation/Model/Relation.php:71
+msgid "Records"
+msgstr "رکورد‌ها"
+
+#: src/Pmpr/Module/Relation/Model/Record.php:41
+#: src/Pmpr/Module/Relation/Model/Relation.php:21
 #: src/Pmpr/Module/Relation/Relation.php:22
-#: src/Pmpr/Module/Relation/Setting.php:26
-#: src/Pmpr/Module/Relation/Widget/Post.php:47
+#: src/Pmpr/Module/Relation/Setting.php:16
+#: src/Pmpr/Module/Relation/Widget/Post.php:48
 msgid "Relation"
 msgstr "رابطه"
 
-#: src/Pmpr/Module/Relation/Setting.php:25
-msgid "Relation Setting"
-msgstr "تنظیمات رابطه"
+#: src/Pmpr/Module/Relation/Model/Record.php:46
+#: src/Pmpr/Module/Relation/Model/Relation.php:75
+msgid "Created At"
+msgstr "تاریخ ایجاد"
 
-#: src/Pmpr/Module/Relation/Setting.php:32
-msgid "General"
-msgstr "عمومی"
-
-#: src/Pmpr/Module/Relation/Widget/Post.php:25
-msgid "Post Relations"
-msgstr "رابطه بین نوشته‌ها"
-
-#: src/Pmpr/Module/Relation/Widget/Post.php:26
-msgid "Display the related posts."
-msgstr "نمایش نوشته‌های مرتبط."
-
-#: src/Pmpr/Module/Relation/Widget/Post.php:43
+#: src/Pmpr/Module/Relation/Model/Relation.php:37
+#: src/Pmpr/Module/Relation/Widget/Post.php:44
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Module/Relation/Widget/Post.php:52
+#: src/Pmpr/Module/Relation/Model/Relation.php:41
+msgid "Slug"
+msgstr "نامک"
+
+#: src/Pmpr/Module/Relation/Model/Relation.php:45
+msgid "Post Type"
+msgstr "نوع نوشته"
+
+#: src/Pmpr/Module/Relation/Model/Relation.php:46
+msgid "Type"
+msgstr "نوع"
+
+#: src/Pmpr/Module/Relation/Model/Relation.php:50
+msgid "Active"
+msgstr "فعال"
+
+#: src/Pmpr/Module/Relation/Model/Relation.php:51
+msgid "Inactive"
+msgstr "غیر فعال‌‌"
+
+#: src/Pmpr/Module/Relation/Model/Relation.php:52
+msgid "Status"
+msgstr "وضعیت"
+
+#: src/Pmpr/Module/Relation/Model/Relation.php:66
+msgid "Bilateral Relation"
+msgstr "رابطه دو طرفه"
+
+#: src/Pmpr/Module/Relation/Setting.php:17
+msgid "Relation Setting"
+msgstr "تنظیمات رابطه"
+
+#: src/Pmpr/Module/Relation/Widget/Post.php:24
+msgid "Post Relations"
+msgstr "رابطه بین نوشته‌ها"
+
+#: src/Pmpr/Module/Relation/Widget/Post.php:25
+msgid "Display the related posts."
+msgstr "نمایش نوشته‌های مرتبط."
+
+#: src/Pmpr/Module/Relation/Widget/Post.php:53
 msgid "Count"
 msgstr "تعداد"
 
-#: src/Pmpr/Module/Relation/Widget/Post.php:57
+#: src/Pmpr/Module/Relation/Widget/Post.php:58
 msgid "Metadata"
 msgstr "متادیتا"
 
-#: src/Pmpr/Module/Relation/Widget/Post.php:62
+#: src/Pmpr/Module/Relation/Widget/Post.php:63
 msgid "Render Template"
 msgstr "قالب نمایش"
 
-#: src/Pmpr/Module/Relation/Widget/Post.php:64
+#: src/Pmpr/Module/Relation/Widget/Post.php:65
 msgid "List"
 msgstr "لیست"
 
-#: src/Pmpr/Module/Relation/Widget/Post.php:65
+#: src/Pmpr/Module/Relation/Widget/Post.php:66
 msgid "Table"
 msgstr "جدول"
 
-#: src/Pmpr/Module/Relation/Widget/Post.php:66
+#: src/Pmpr/Module/Relation/Widget/Post.php:67
 msgid "Simple List"
 msgstr "لیست ساده"
+
+#~ msgid "General"
+#~ msgstr "عمومی"
 
 #~ msgid "FAQ"
 #~ msgstr "سوالات متداول"
@@ -222,9 +276,6 @@ msgstr "لیست ساده"
 
 #~ msgid "Publish"
 #~ msgstr "منتشر شده"
-
-#~ msgid "Status"
-#~ msgstr "وضعیت"
 
 #~ msgid "Priority"
 #~ msgstr "الویت"
