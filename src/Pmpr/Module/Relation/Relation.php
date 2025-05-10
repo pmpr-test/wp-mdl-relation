@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             681fcebf29af3             |
+    |             681fcf2554cf2             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Relation; use Pmpr\Common\Foundation\Container\ModuleInitiator; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Module\Relation\Entity\Post; use Pmpr\Module\Relation\Widget\Post as WidgetPost; class Relation extends ModuleInitiator { const esgskoesuqecuuwg = 'relation_'; public function register() { $this->gkieogwukagigisy(__DIR__, [Constants::qescuiwgsyuikume => static function () { return __('Relation', PR__MDL__RELATION); }, Constants::wuowaiyouwecckaw => false, Constants::sguyaymiiiiewame => Setting::class]); } public function wigskegsqequoeks() { $this->waqewsckuayqguos('before_enqueue_backend_assets', [$this, 'enqueue']); } public function mameiwsayuyquoeq() { Hook::ksyueceqagwomguk(); if ($this->caokeucsksukesyo()->owicscwgeuqcqaig()->gaawugksaskamooe()) { WidgetPost::ksyueceqagwomguk(); } if ($this->caokeucsksukesyo()->owicscwgeuqcqaig()->mcgoysmkqsqooceq(Ajax::wiysygukkaksueso)) { Ajax::ksyueceqagwomguk(); } else { Post::ksyueceqagwomguk(); } } public function enqueue() { $meakksicouekcgoe = $this->caokeucsksukesyo()->usugyumcgeaaowsi(); $meakksicouekcgoe->qeqgammgesiwiysc($meakksicouekcgoe->awgyqswkqywwmkye($this, 'relation', 'index.css'))->qeqgammgesiwiysc($meakksicouekcgoe->owygwqwawqoiusis($this, 'relation', 'index.js')->simswskycwagoeqy()->okawmmwsiuauwsiu(Constants::qiaqeaemuukkikmi))->wwmusmkkcwsiciou($this, 'relation', [Constants::wyucqaeuuqkesque => Ajax::myikkigscysoykgy]); } }
